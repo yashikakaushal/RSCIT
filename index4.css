@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(107, 153, 153);
+}
+table{
+    border:"yellow";
+    width: 100px;
+}
+.h1{
+    text-align: center;
+    
+}
+tr{
+    background-color: yellow;
+}
