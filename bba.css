@@ -1,0 +1,25 @@
+body{
+    background-color:darkgoldenrod;
+    margin:0px;
+}
+.student{
+    background-color:darkgray;
+    text-align: left;
+}
+.friend{
+    background-image: 200px;
+    width: 650px;
+    height: 600px;
+    text-align: right;
+    float:right;
+}
+h1{
+text-align: center;
+}
+h4{
+    text-align: center;
+}
+.Submit{
+text-align: center;
+background-color: blue;
+}
