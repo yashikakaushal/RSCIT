@@ -1,0 +1,32 @@
+<html>
+<pre>
+<script language="javascript">
+var m1,m2,m3,total,per;
+m1 = prompt("Enter mark1");
+m2 = prompt("Enter mark2");
+m3 = prompt("Enter mark3");
+total = eval(m1)+eval(m2)+eval(m3);
+per = eval(total)/3;
+
+document.write("\n the total is"+total);
+document.write("\n the per is"+per);
+
+if (per >= 40)
+document.write("\n you are pass");
+else
+document.write("\n you are fail");
+
+if(per >= 80)
+document.write("\n your div is 1st");
+
+if(per>=60 && per < 80)
+document.write("\n your div is 2nd");
+else
+if(per>=40 && per < 60)
+document.write("\n your div is 3rd");
+else
+document.write("\n your div is null");
+
+</script>
+</pre>
+</html>
