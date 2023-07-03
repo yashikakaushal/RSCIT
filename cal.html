@@ -1,0 +1,51 @@
+<html>
+<body>
+<form name="abc">
+<center>
+<table border=30>
+<tr>
+<td colspan=4><input type="textbox" name="t1" size=20</td>
+</tr>
+<tr>
+<td><input type="button" name="b1" value="C" onclick="calc('C')"</td>
+<td><input type="button" name="b2" value="%" onclick="calc('%')"</td>
+<td><input type="button" name="b3" value="=" onclick="calc('=')"</td>
+<td><input type="button" name="b4" value="/"onclick="calc('/')"</td>
+</tr>
+<tr>
+<td><input type="button" name="b5" value="1" onclick="calc('1')"</td>
+<td><input type="button" name="b6" value="2" onclick="calc('2')"</td>
+<td><input type="button" name="b7" value="3" onclick="calc('3')"</td>
+<td><input type="button" name="b8" value="*"onclick="calc('*')"</td>
+</tr>
+<tr>
+<td><input type="button" name="b9" value="4"onclick="calc('4')"</td>
+<td><input type="button" name="b10" value="5"onclick="calc('5')"</td>
+<td><input type="button" name="b11" value="6"onclick="calc('6')"</td>
+<td><input type="button" name="b12" value="+"onclick="calc('+')"</td>
+</tr>
+<tr>
+<td><input type="button" name="b13" value="7"onclick="calc('7')"></td>
+<td><input type="button" name="b14" value="8"onclick="calc('8')"></td>
+<td><input type="button" name="b15" value="9"onclick="calc('9')"></td>
+<td><input type="button" name="b16" value="-"onclick="calc('-')"></td>
+</tr>
+
+</center>
+</table>
+</body>
+<script language="JavaScript">
+function calc(x)
+{
+if(x == 'C')
+document.abc.t1.value="";
+else
+if (x == '=')
+document.abc.t1.value = eval(document.abc.t1.value);
+else
+document.abc.t1.value = document.abc.t1.value + x;
+}
+
+
+</script>
+</html>
